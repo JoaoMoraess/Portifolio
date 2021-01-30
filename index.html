@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Templates</title>
 </head>
 <style>
     *{
@@ -34,6 +34,12 @@
         max-width: 1000px;
         min-height: 100%;
         display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    main h2{
+        color: white;
+        margin-bottom: 25px;
     }
     section{
         display: flex;
@@ -48,10 +54,22 @@
         height: 200px;
         margin: 20px 20px;
         border-radius: 5px;
+        background-color: #fff;
+        text-align: center;
     }
     .wrapper:hover{
         transition: all ease .5s;
         transform: scale(1.1);
+    }
+    .wrapper img {
+        width: 100%;
+        border-radius: 5px;
+        border-bottom: 2px solid #222;
+        height: 150px;
+    }
+    .wrapper h3{
+        color: #1e1385;
+        text-decoration: none;
     }
 </style>
 <body>
@@ -59,24 +77,31 @@
         <h1>Portifólio HoverSites</h1>
     </header>
     <main>
+        <h2>Projetos academicos</h2>
         <section>
             <a class="wrapper" href="./Projetos/Projeto_01">
-                <img src="" alt="">
+                <img src="images/projeto1.png" alt="">
+                <h3>porjeto 1</h3>
             </div>
             <a class="wrapper" href="./Projetos/Projeto_02">
-                <img src="" alt="">
+                <img src="images/projeto2.png" alt="">
+                <h3>porjeto 2</h3>
             </div>
             <a class="wrapper" href="./Projetos/Projeto_03">
-                <img src="" alt="">
+                <img src="images/projeto3.png" alt="">
+                <h3>porjeto 3</h3>
             </div>
             <a class="wrapper" href="./Projetos/Projeto_04">
-                <img src="" alt="">
+                <img src="images/projeto4.png" alt="">
+                <h3>porjeto 4</h3>
             </div>
             <a class="wrapper" href="./Projetos/Projeto_05">
-                <img src="" alt="">
+                <img src="images/projeto5.png" alt="">
+                <h3>porjeto 5</h3>
             </a>
             <a class="wrapper" href="./Projetos/Projeto_06">
-                <img src="" alt="">
+                <img src="images/projeto6.png" alt="">
+                <h3>porjeto 6</h3>
             </a>
         </section>
     </main>
